@@ -500,6 +500,10 @@ section:nth-child(even) {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  justify-content: flex-start;
+}
+
+#contact .contact-buttons {
   justify-content: center;
 }
 
@@ -519,7 +523,8 @@ section:nth-child(even) {
 }
 
 .cta-button:hover {
-  background-color: var(--color-emerald-400);
+  background-color: var(--color-purple-400);
+  border-color: var(--color-purple-500);
   color: var(--color-gray-900);
 }
 
@@ -606,7 +611,7 @@ section {
   }
 
   .hero-image {
-    max-width: 100%;
+    max-width: 70%;
     margin-top: 1rem;
   }
 
@@ -635,5 +640,9 @@ section {
 
   .timeline-icon {
     left: 20px;
+  }
+
+  .contact-buttons {
+    justify-content: center;
   }
 }
